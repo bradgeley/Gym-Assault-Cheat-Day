@@ -6,6 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class Player : MonoBehaviour
 
 {
+    //Movement Factors
     [Tooltip("In m/s")] [SerializeField] float XSensitivity = 2f;
     [Tooltip("In m/s")] [SerializeField] float YSensitivity = 2f;
     [SerializeField] float MaxXPos = 10f;
@@ -17,9 +18,8 @@ public class Player : MonoBehaviour
     [SerializeField] float YThrowPitchFactor = 100f;
     [SerializeField] float XPositionRollFactor = 20f;
 
-    [SerializeField] float xThrow = 0f;
-    [SerializeField] float yThrow = 0f;
-
+    //Joystick positions from CrossPlatformInputManager
+    float xThrow, yThrow;
     Quaternion startingRotation;
 
     void Start()
@@ -32,6 +32,16 @@ public class Player : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        print("Collided");
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("Triggered");
     }
 
     private void ProcessTranslation()
@@ -51,9 +61,38 @@ public class Player : MonoBehaviour
 
     void ProcessRotation()
     {
-        float pitch = startingRotation.eulerAngles.x + transform.localPosition.y * YPositionPitchFactor + yThrow * YThrowPitchFactor;
-        float yaw = startingRotation.eulerAngles.y + transform.localPosition.x * XPositionYawFactor + xThrow * XThrowYawFactor;
-        float roll = startingRotation.eulerAngles.z + xThrow * XPositionRollFactor;
+        float roll = CalculateRoll();
+        float yaw = CalculateYaw();
+        float pitch = CalculatePitch();
         transform.localRotation = Quaternion.Euler(roll, yaw, pitch);
+    }
+
+    private float CalculateRoll()
+    {
+        //In the world, the player ship is facing the -x axis, therefore X in the Euler vector controls Roll
+        float startingRoll = startingRotation.eulerAngles.z;
+        float rollDueToXThrow = xThrow * XPositionRollFactor;
+        float roll = startingRoll + rollDueToXThrow;
+        return roll;
+    }
+
+    private float CalculateYaw()
+    {
+        float initialYaw = startingRotation.eulerAngles.y;
+        float yawDueToXPosition = transform.localPosition.x * XPositionYawFactor;
+        float yawDueToXThrow = xThrow * XThrowYawFactor;
+        float yaw = initialYaw + yawDueToXPosition + yawDueToXThrow;
+        return yaw;
+    }
+
+    //In the world, the player ship is facing the -x axis, therefore Z in the Euler vector controls Pitch
+
+    private float CalculatePitch()
+    {
+        float initialPitch = startingRotation.eulerAngles.x;
+        float pitchDueToYPosition = transform.localPosition.y * YPositionPitchFactor;
+        float pitchDueToYThrow = yThrow * YThrowPitchFactor;
+        float pitch = initialPitch + pitchDueToYPosition + pitchDueToYThrow;
+        return pitch;
     }
 }

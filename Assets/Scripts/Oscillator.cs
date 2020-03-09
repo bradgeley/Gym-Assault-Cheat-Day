@@ -29,7 +29,7 @@ public class Oscillator : MonoBehaviour
         if (period <= Mathf.Epsilon) return;
         float cycles = Time.time / period;
         const float tau = Mathf.PI * 2;
-        float rawSinWave = Mathf.Sin(tau * cycles);
-        movementFactor = rawSinWave / 2f + 0.5f;
+        float rawSinWaveValue = Mathf.Sin(tau * cycles);
+        movementFactor = rawSinWaveValue / 2f + 0.5f; //fix sin wave to yield between 0 and 1
     }
 }
