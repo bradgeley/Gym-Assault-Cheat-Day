@@ -5,8 +5,12 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
+    //Death Mechanics
     [SerializeField] GameObject deathFX;
     [SerializeField] Transform parent;
+
+    //Health
+    [SerializeField] int hitPoints = 10;
 
     //Scoring
     [SerializeField] int pointsOnKill;
@@ -29,9 +33,24 @@ public class Enemy : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
+        hitPoints -= 1;
+        //consider hit FX
+        if (hitPoints <= 0)
+        {
+            KillEnemy();
+            AwardPointsToPlayer();
+        }
+    }
+
+    private void KillEnemy()
+    {
         CreateExplosion();
         Destroy(gameObject);
-        AwardPointsToPlayer();
+    }
+    private void CreateExplosion()
+    {
+        GameObject FX = Instantiate(deathFX, transform.position, Quaternion.identity);
+        FX.transform.parent = parent; //child the explosion game object to a parent that will hold all temporary objects
     }
 
     private void AwardPointsToPlayer()
@@ -39,9 +58,4 @@ public class Enemy : MonoBehaviour
         scoreboard.ScoreHit(pointsOnKill);
     }
 
-    private void CreateExplosion()
-    {
-        GameObject FX = Instantiate(deathFX, transform.position, Quaternion.identity);
-        FX.transform.parent = parent; //child the explosion game object to a parent that will hold all temporary objects
-    }
 }

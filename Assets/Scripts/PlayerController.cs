@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -24,6 +25,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float XThrowYawFactor = 25f;
     [SerializeField] float XPositionYawFactor = 1.5f;
 
+    [Header("Weapons")]
+    [SerializeField] GameObject[] guns;
+
 
     //Joystick positions from CrossPlatformInputManager
     float xThrow, yThrow;
@@ -42,8 +46,10 @@ public class PlayerController : MonoBehaviour
         {
             ProcessTranslation();
             ProcessRotation();
+            ProcessFiring();
         }
     }
+
 
     private void ProcessTranslation()
     {
@@ -66,6 +72,27 @@ public class PlayerController : MonoBehaviour
         float yaw = CalculateYaw();
         float pitch = CalculatePitch();
         transform.localRotation = Quaternion.Euler(roll, yaw, pitch);
+    }
+
+    private void ProcessFiring()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire"))
+        {
+            ToggleGuns(true);
+        }
+        else
+        {
+            ToggleGuns(false);
+        }
+    }
+
+    private void ToggleGuns(bool isFiring)
+    {
+        foreach (GameObject gun in guns) {
+            {
+                gun.SetActive(isFiring);
+            }
+        }
     }
 
     private float CalculateRoll()
@@ -100,5 +127,6 @@ public class PlayerController : MonoBehaviour
     void ReceiveDeathMessage()
     {
         isDead = true;
+        ToggleGuns(false);
     }
 }

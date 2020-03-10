@@ -706,6 +706,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!4 &132592252 stripped
@@ -865,6 +870,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1001 &167183965
@@ -948,6 +958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
@@ -1177,6 +1192,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
 --- !u!4 &236590078 stripped
@@ -1392,6 +1412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
@@ -1627,6 +1652,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!4 &307583277 stripped
@@ -1860,6 +1890,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
 --- !u!1001 &347465366
@@ -2013,6 +2048,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1001 &360550181
@@ -2159,6 +2199,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06b21a62184f84f25b219aabb1af212c, type: 3}
+--- !u!1 &404154377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1479432175, guid: 8252d848c6733104bb9068ebb796c2ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 1481312005}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &415937181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2477,6 +2523,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e58d57693bd4d4e878439fe19720c026, type: 3}
+--- !u!1 &479066628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4906418317854060578, guid: 8252d848c6733104bb9068ebb796c2ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 1481312005}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &488021426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2558,6 +2610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
@@ -2711,6 +2768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
@@ -2952,6 +3014,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1001 &567779807
@@ -3110,6 +3177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
@@ -3282,6 +3354,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1001 &692140036
@@ -3295,21 +3372,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy2 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2921134319588411944, guid: 16acbe5bed5d99944a567da1b7fcb438,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2921134319588411944, guid: 16acbe5bed5d99944a567da1b7fcb438,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2921134319588411944, guid: 16acbe5bed5d99944a567da1b7fcb438,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 2921134319588411944, guid: 16acbe5bed5d99944a567da1b7fcb438,
         type: 3}
@@ -3351,6 +3413,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.7320001
       objectReference: {fileID: 0}
+    - target: {fileID: 2921134319588411944, guid: 16acbe5bed5d99944a567da1b7fcb438,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921134319588411944, guid: 16acbe5bed5d99944a567da1b7fcb438,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921134319588411944, guid: 16acbe5bed5d99944a567da1b7fcb438,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 61.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4017054811633193988, guid: 16acbe5bed5d99944a567da1b7fcb438,
         type: 3}
       propertyPath: parent
@@ -3365,6 +3442,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017054811633193988, guid: 16acbe5bed5d99944a567da1b7fcb438,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16acbe5bed5d99944a567da1b7fcb438, type: 3}
@@ -3694,6 +3776,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1001 &805499965
@@ -3777,6 +3864,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
@@ -4237,6 +4329,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
 --- !u!4 &938525146 stripped
@@ -4396,8 +4493,105 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
+--- !u!1 &991497338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 991497339}
+  - component: {fileID: 991497341}
+  - component: {fileID: 991497340}
+  - component: {fileID: 991497342}
+  m_Layer: 5
+  m_Name: Lives Counter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &991497339
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991497338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657704291}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 364.05}
+  m_SizeDelta: {x: -1652.5, y: -992.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &991497340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991497338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.006026864, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 38
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 46
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Remaining Lives: 100'
+--- !u!222 &991497341
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991497338}
+  m_CullTransparentMesh: 0
+--- !u!114 &991497342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991497338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ce9ee5bdf33cd44995529fdc42acea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  livesText: {fileID: 991497340}
+  livesPreText: 'Remaining Lives:'
 --- !u!4 &1038457336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4371191676341712, guid: facc022907d0943adb45ee8d456e61a1,
@@ -4723,6 +4917,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1 &1110311493
@@ -4847,6 +5046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
@@ -5138,6 +5342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
@@ -5729,6 +5938,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
 --- !u!4 &1370048580 stripped
@@ -5819,6 +6033,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
 --- !u!1001 &1386713890
@@ -5890,6 +6109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
@@ -5974,6 +6198,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
@@ -6065,6 +6294,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 4017054811633193988, guid: 16acbe5bed5d99944a567da1b7fcb438,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16acbe5bed5d99944a567da1b7fcb438, type: 3}
 --- !u!4 &1444714094 stripped
@@ -6083,7 +6317,7 @@ PrefabInstance:
     - target: {fileID: 783223272482600300, guid: 8252d848c6733104bb9068ebb796c2ce,
         type: 3}
       propertyPath: m_Name
-      value: Vanilla Birthday Cake
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 783223272482600301, guid: 8252d848c6733104bb9068ebb796c2ce,
         type: 3}
@@ -6140,9 +6374,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1444714095, guid: 8252d848c6733104bb9068ebb796c2ce, type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444714095, guid: 8252d848c6733104bb9068ebb796c2ce, type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 404154377}
+    - target: {fileID: 1444714095, guid: 8252d848c6733104bb9068ebb796c2ce, type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 479066628}
+    - target: {fileID: 5154551567614560082, guid: 8252d848c6733104bb9068ebb796c2ce,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 8794224778159544367, guid: 21d643cb40a07914a9176f37decefdc0,
+        type: 3}
+    - target: {fileID: 5154551567614560082, guid: 8252d848c6733104bb9068ebb796c2ce,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1790258007}
+    - target: {fileID: 5154551567614560082, guid: 8252d848c6733104bb9068ebb796c2ce,
+        type: 3}
+      propertyPath: livesCounter
+      value: 
+      objectReference: {fileID: 991497342}
     - target: {fileID: 1479432168, guid: 8252d848c6733104bb9068ebb796c2ce, type: 3}
       propertyPath: CollisionModule.minKillSpeed
       value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 759448332305903436, guid: 8252d848c6733104bb9068ebb796c2ce,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4906418317854060581, guid: 8252d848c6733104bb9068ebb796c2ce,
         type: 3}
@@ -6307,6 +6574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
@@ -6530,6 +6802,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 4017054811633193988, guid: 16acbe5bed5d99944a567da1b7fcb438,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16acbe5bed5d99944a567da1b7fcb438, type: 3}
 --- !u!1001 &1537512952
@@ -6613,6 +6890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017054811633193988, guid: 16acbe5bed5d99944a567da1b7fcb438,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16acbe5bed5d99944a567da1b7fcb438, type: 3}
@@ -6995,6 +7277,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 727830794}
+  - {fileID: 991497339}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7298,6 +7581,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1001 &1705631997
@@ -7451,6 +7739,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1001 &1739251152
@@ -7534,6 +7827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
@@ -7904,6 +8202,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
 --- !u!1 &1957465480
@@ -7938,6 +8241,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1979161435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2921134319588251144, guid: 16acbe5bed5d99944a567da1b7fcb438,
+    type: 3}
+  m_PrefabInstance: {fileID: 692140036}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1979161436
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979161435}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &1979161437
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979161435}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: b830d38e79eae6b4485799232e258387, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5681334538418038469, guid: b830d38e79eae6b4485799232e258387, type: 2}
+    value: {fileID: 1979161436}
+  - key: {fileID: 7468356568467918271, guid: b830d38e79eae6b4485799232e258387, type: 2}
+    value: {fileID: 1979161436}
+  - key: {fileID: 4826632629914309486, guid: b830d38e79eae6b4485799232e258387, type: 2}
+    value: {fileID: 1979161436}
+  - key: {fileID: 4303753108916324220, guid: b830d38e79eae6b4485799232e258387, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -402815923826075761, guid: b830d38e79eae6b4485799232e258387, type: 2}
+    value: {fileID: 1979161436}
+  - key: {fileID: -3690141836824817683, guid: b830d38e79eae6b4485799232e258387, type: 2}
+    value: {fileID: 1979161436}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &1981807591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8227,6 +8584,11 @@ PrefabInstance:
       propertyPath: pointsOnKill
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6507656122839403557, guid: facc022907d0943adb45ee8d456e61a1,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!1 &2016573647
@@ -8364,6 +8726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
@@ -8598,6 +8965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: pointsOnKill
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 606305636772273447, guid: ffde1e5de261c426bbfee2ff352f7205,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffde1e5de261c426bbfee2ff352f7205, type: 3}
