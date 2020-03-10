@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33187561917500546}
   - component: {fileID: 23228896759599702}
   - component: {fileID: 1117294163014252921}
+  - component: {fileID: 6507656122839403557}
   m_Layer: 0
   m_Name: HexDumbell
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001761235026842}
-  m_LocalRotation: {x: 0.2427566, y: 0.97008723, z: -0, w: 0}
+  m_LocalRotation: {x: 0.24276, y: 0.9700864, z: -0.00000004545766, w: -0.00000018165208}
   m_LocalPosition: {x: -0.5788974, y: 1.2429276, z: -4.760331}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.31500018, y: 0.21000002, z: 0.21000011}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180.00002, z: 28.099}
 --- !u!33 &33187561917500546
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -95,3 +96,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 97071ac33694b4133b0db9dc2f87c7c7, type: 3}
+--- !u!114 &6507656122839403557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001761235026842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f2cbfceb373994f96beae5e8add1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathFX: {fileID: 8794224778159544367, guid: 21d643cb40a07914a9176f37decefdc0, type: 3}
+  parent: {fileID: 0}
+  pointsOnKill: 0
+  scoreboard: {fileID: 0}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33654731653751188}
   - component: {fileID: 23776393064989590}
   - component: {fileID: 8439322024296612893}
+  - component: {fileID: 606305636772273447}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595473369609464}
-  m_LocalRotation: {x: -0, y: -0, z: -0.21153812, w: 0.9773698}
+  m_LocalRotation: {x: 0, y: 0, z: -0.21153812, w: 0.9773698}
   m_LocalPosition: {x: -0.5801537, y: 0.5393745, z: -4.7601}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.2537, y: 4.2537, z: 4.2537}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.425001}
 --- !u!33 &33654731653751188
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -94,3 +95,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 9c4274b872cde4fe99ce7b35e74f5e91, type: 3}
+--- !u!114 &606305636772273447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595473369609464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f2cbfceb373994f96beae5e8add1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathFX: {fileID: 8794224778159544367, guid: 21d643cb40a07914a9176f37decefdc0, type: 3}
+  parent: {fileID: 0}
+  pointsOnKill: 0
+  scoreboard: {fileID: 0}

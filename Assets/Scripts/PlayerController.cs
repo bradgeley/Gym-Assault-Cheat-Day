@@ -2,46 +2,47 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityStandardAssets.Utility;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 
 {
     //Movement Factors
-    [Tooltip("In m/s")] [SerializeField] float XSensitivity = 2f;
-    [Tooltip("In m/s")] [SerializeField] float YSensitivity = 2f;
-    [SerializeField] float MaxXPos = 10f;
-    [SerializeField] float YMax = 5f;
-    [SerializeField] float YMin = 5f;
-    [SerializeField] float XPositionYawFactor = 3f;
-    [SerializeField] float YPositionPitchFactor = -2f;
-    [SerializeField] float XThrowYawFactor = 100f;
-    [SerializeField] float YThrowPitchFactor = 100f;
+    [Header("Movement Speed")]
+    [Tooltip("In m/s")] [SerializeField] float XSensitivity = 30f;
+    [Tooltip("In m/s")] [SerializeField] float YSensitivity = 30f;
+
+    [Header("Movement Bounds")]
+    [SerializeField] float MaxXPos = 7f;
+    [SerializeField] float YMax = 3.5f;
+    [SerializeField] float YMin = 3.5f;
+
+    [Header("Roll/Pitch/Yaw")]
     [SerializeField] float XPositionRollFactor = 20f;
+    [SerializeField] float YPositionPitchFactor = -1.5f;
+    [SerializeField] float YThrowPitchFactor = 25f;
+    [SerializeField] float XThrowYawFactor = 25f;
+    [SerializeField] float XPositionYawFactor = 1.5f;
+
 
     //Joystick positions from CrossPlatformInputManager
     float xThrow, yThrow;
     Quaternion startingRotation;
+
+    bool isDead = false;
 
     void Start()
     {
         startingRotation = transform.localRotation;
     }
 
-
     void Update()
     {
-        ProcessTranslation();
-        ProcessRotation();
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        print("Collided");
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        print("Triggered");
+        if (!isDead)
+        {
+            ProcessTranslation();
+            ProcessRotation();
+        }
     }
 
     private void ProcessTranslation()
@@ -94,5 +95,10 @@ public class Player : MonoBehaviour
         float pitchDueToYThrow = yThrow * YThrowPitchFactor;
         float pitch = initialPitch + pitchDueToYPosition + pitchDueToYThrow;
         return pitch;
+    }
+
+    void ReceiveDeathMessage()
+    {
+        isDead = true;
     }
 }
