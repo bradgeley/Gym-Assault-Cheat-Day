@@ -71,28 +71,7 @@ public class PlayerController : MonoBehaviour
         float roll = CalculateRoll();
         float yaw = CalculateYaw();
         float pitch = CalculatePitch();
-        transform.localRotation = Quaternion.Euler(roll, yaw, pitch);
-    }
-
-    private void ProcessFiring()
-    {
-        if (CrossPlatformInputManager.GetButton("Fire"))
-        {
-            ToggleGuns(true);
-        }
-        else
-        {
-            ToggleGuns(false);
-        }
-    }
-
-    private void ToggleGuns(bool isFiring)
-    {
-        foreach (GameObject gun in guns) {
-            {
-                gun.SetActive(isFiring);
-            }
-        }
+        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
     private float CalculateRoll()
@@ -113,8 +92,6 @@ public class PlayerController : MonoBehaviour
         return yaw;
     }
 
-    //In the world, the player ship is facing the -x axis, therefore Z in the Euler vector controls Pitch
-
     private float CalculatePitch()
     {
         float initialPitch = startingRotation.eulerAngles.x;
@@ -122,6 +99,28 @@ public class PlayerController : MonoBehaviour
         float pitchDueToYThrow = yThrow * YThrowPitchFactor;
         float pitch = initialPitch + pitchDueToYPosition + pitchDueToYThrow;
         return pitch;
+    }
+
+    private void ProcessFiring()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire"))
+        {
+            ToggleGuns(true);
+        }
+        else
+        {
+            ToggleGuns(false);
+        }
+    }
+
+    private void ToggleGuns(bool isFiring)
+    {
+        foreach (GameObject gun in guns)
+        {
+            {
+                gun.SetActive(isFiring);
+            }
+        }
     }
 
     void ReceiveDeathMessage()

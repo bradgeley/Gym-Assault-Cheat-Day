@@ -19,6 +19,7 @@ public class CollisionHandler : MonoBehaviour
     {
         livesCounter.setLives(lives);
     }
+
     private void OnTriggerEnter(Collider other)
     {
         float currentTime = Time.time;

@@ -251,6 +251,8 @@ GameObject:
   - component: {fileID: 4165209704744360}
   - component: {fileID: 205108687488532858}
   - component: {fileID: 1249905980147056703}
+  - component: {fileID: 807563142}
+  - component: {fileID: 2001037934}
   m_Layer: 0
   m_Name: 45CrossPlate
   m_TagString: Untagged
@@ -265,9 +267,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698386163034424}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.2570105, y: 0.834, z: -1.8147994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 7.5000043, y: 6.500003, z: 6.5000043}
   m_Children:
   - {fileID: 4757617285512324}
   - {fileID: 4732632120014934}
@@ -321,6 +323,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: e826e829e858143fc9e9eb4855fa8e8b, type: 3}
+--- !u!114 &807563142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698386163034424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f2cbfceb373994f96beae5e8add1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathFX: {fileID: 8794224778159544367, guid: 21d643cb40a07914a9176f37decefdc0, type: 3}
+  parent: {fileID: 0}
+  hitPoints: 10
+  pointsOnKill: 200
+--- !u!114 &2001037934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698386163034424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f2cbfceb373994f96beae5e8add1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathFX: {fileID: 8794224778159544367, guid: 21d643cb40a07914a9176f37decefdc0, type: 3}
+  parent: {fileID: 0}
+  hitPoints: 10
+  pointsOnKill: 200
 --- !u!1 &1874153053387398
 GameObject:
   m_ObjectHideFlags: 0
